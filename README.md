@@ -1,1 +1,1 @@
-# python_class2
+# python_class2.py
