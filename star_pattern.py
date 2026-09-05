@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 for i in range (1,5):
     for j in range(i):
         print ("*",end="")
@@ -7,3 +8,14 @@ for i in range (1,5):
     for j in range(i):
         print (i,end="")
     print()
+=======
+for i in range (1,5):
+    for j in range(i):
+        print ("*",end="")
+    print()
+
+for i in range (1,5):
+    for j in range(i):
+        print (i,end="")
+    print()
+>>>>>>> 07bbdca123316516f03883de64f1433daa121aa9
