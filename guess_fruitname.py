@@ -9,7 +9,7 @@ while count<4:
     guess=input("Enter fruit name:")
     if guess==fruits_name:
         print("You won!")
-        print(points)
+        print("points",points)
         break
     else:
         if count==0:
