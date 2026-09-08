@@ -12,5 +12,6 @@ def create_dictionary(pnames,prices):
 a=create_dictionary(["keyboard","Monitor","Printer","Mouse"],[600,4000,15000,400])
 print(a)    
 
-
+a=create_dictionary(["orange","Mango","apple","banana"],[100,250,150,30])
+print(a) 
 
