@@ -1,3 +1,18 @@
+'''3: Create a student result if marks of a student is passed in the form of
+  list of dictionaries
+  [{"name":"Abdullah","marks":[45,74,85,85,65,65]},{"name":"Abdurrahman","marks":[65,84,80,81,65,55]}] 
+
+  the function should calculate total marks and percetnage of each student and append
+  it into respective dictionaries like this
+  {"name":"Abdullah","marks":[45,74,85,85,65,65],"total":457,"percent":74.52}
+									69.50
+									87.52
+
+  finally return the average of percentages to the calling scope
+'''
+
+
+
 def display_result(students):
     total_percentage=0
     for s in students:
