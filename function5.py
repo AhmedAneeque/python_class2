@@ -28,10 +28,5 @@ def restaurant_bill(recipes):
     print(f"GST {gst_rate}          {gst:.2f}")
     print(f"Bill Amount with GST  {final_amount:.2f}")
 
-recipes = {
-    "Biryani": 450,
-    "Chicken 65": 300
-}
-
-# Call the function
+recipes = {"Biryani": 450,"Chicken 65": 300}
 restaurant_bill(recipes)
