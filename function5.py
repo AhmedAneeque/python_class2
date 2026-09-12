@@ -10,15 +10,28 @@
    GST 0.06	        45
    Bill amount with GST 795	
 '''
-def billing_system(bill):
-    dishes=[]  
-    for i in billing_system(list_of_bill):
-        print(i)
-    # print(bill)
+def restaurant_bill(recipes):
+    total = 0
 
+    print("------ RESTAURANT BILL ------")
 
+    for i, (item, price) in enumerate(recipes.items(), start=1):
+        print(f"{i}: {item}    {price}")
+        total +=price
 
+    gst_rate = 0.06
+    gst = total * gst_rate
+    final_amount = total + gst
 
-list_of_bill=({"Biryani":450,"chicken 65":300})
-a=billing_system(list_of_bill)
-print(a)
+    print("-----------------------------")
+    print(f"Total Bill Amount    {total}")
+    print(f"GST {gst_rate}          {gst:.2f}")
+    print(f"Bill Amount with GST  {final_amount:.2f}")
+
+recipes = {
+    "Biryani": 450,
+    "Chicken 65": 300
+}
+
+# Call the function
+restaurant_bill(recipes)
